@@ -15,7 +15,10 @@ const sequelize = new Sequelize(database, username, password, {
     port,
     dialect: dialect,
     operatorAliases: false,
-    ssl: {rejectUnauthorized: false},
+    ssl: {
+        require: true,  
+        rejectUnauthorized: false 
+      },
     pool: {
         max: 10,
         min: 0,
