@@ -42,6 +42,10 @@ const Usuario = sequelize.define('usuarios', {
     puntosObjetivo: {
         type: DataTypes.INTEGER,
         allowNull: false
+    },
+    rango: {
+        type: DataTypes.STRING,
+        allowNull: false
     }
 })
 
