@@ -15,7 +15,7 @@ const SugerenciaPuntoReciclaje = sequelize.define('sugerenciaPuntoReciclajes', {
         type: DataTypes.INTEGER,
         allowNull: false
     },
-    UbicacionPropuestaLongitud: {
+    ubicacionPropuestaLongitud: {
         type: DataTypes.INTEGER,
         allowNull: false
     },
